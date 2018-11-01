@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255F58F9218AF125007E1071 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 255F58F8218AF125007E1071 /* index.ios.js */; };
 		25D764E52189A26200275A03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D764E42189A26200275A03 /* AppDelegate.m */; };
 		25D764E82189A26200275A03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D764E72189A26200275A03 /* ViewController.m */; };
 		25D764EB2189A26200275A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D764E92189A26200275A03 /* Main.storyboard */; };
 		25D764ED2189A26300275A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D764EC2189A26300275A03 /* Assets.xcassets */; };
 		25D764F02189A26300275A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D764EE2189A26300275A03 /* LaunchScreen.storyboard */; };
 		25D764F32189A26300275A03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D764F22189A26300275A03 /* main.m */; };
+		6BE217AD0AEDFFE34169C2E7 /* libPods-RNDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D7941540040DD2D8F18B19 /* libPods-RNDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01CEB0796210395EDE5A2BC9 /* Pods-RNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDemo/Pods-RNDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		255F58F8218AF125007E1071 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
 		25D764E02189A26200275A03 /* RNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D764E32189A26200275A03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25D764E42189A26200275A03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		25D764EF2189A26300275A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25D764F12189A26300275A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D764F22189A26300275A03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42187CEF8C4C7A46A5999182 /* Pods-RNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDemo/Pods-RNDemo.release.xcconfig"; sourceTree = "<group>"; };
+		68D7941540040DD2D8F18B19 /* libPods-RNDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE217AD0AEDFFE34169C2E7 /* libPods-RNDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +49,11 @@
 		25D764D72189A26200275A03 = {
 			isa = PBXGroup;
 			children = (
+				255F58F8218AF125007E1071 /* index.ios.js */,
 				25D764E22189A26200275A03 /* RNDemo */,
 				25D764E12189A26200275A03 /* Products */,
+				A644F792881A5EC47DBD2FCA /* Pods */,
+				E72860E096BF81E9DFB5C531 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +81,23 @@
 			path = RNDemo;
 			sourceTree = "<group>";
 		};
+		A644F792881A5EC47DBD2FCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01CEB0796210395EDE5A2BC9 /* Pods-RNDemo.debug.xcconfig */,
+				42187CEF8C4C7A46A5999182 /* Pods-RNDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E72860E096BF81E9DFB5C531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68D7941540040DD2D8F18B19 /* libPods-RNDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +105,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25D764F62189A26300275A03 /* Build configuration list for PBXNativeTarget "RNDemo" */;
 			buildPhases = (
+				46D2B50340A03CFF10FC7F6C /* [CP] Check Pods Manifest.lock */,
 				25D764DC2189A26200275A03 /* Sources */,
 				25D764DD2189A26200275A03 /* Frameworks */,
 				25D764DE2189A26200275A03 /* Resources */,
@@ -128,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255F58F9218AF125007E1071 /* index.ios.js in Resources */,
 				25D764F02189A26300275A03 /* LaunchScreen.storyboard in Resources */,
 				25D764ED2189A26300275A03 /* Assets.xcassets in Resources */,
 				25D764EB2189A26200275A03 /* Main.storyboard in Resources */,
@@ -135,6 +164,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D2B50340A03CFF10FC7F6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25D764DC2189A26200275A03 /* Sources */ = {
@@ -283,10 +337,20 @@
 		};
 		25D764F72189A26300275A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01CEB0796210395EDE5A2BC9 /* Pods-RNDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CX9BS39T2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"$(SRCROOT)./node_modules/react-native/React",
+				);
 				INFOPLIST_FILE = RNDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,15 +358,26 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinxiushidai.yiqiparty.RNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		25D764F82189A26300275A03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42187CEF8C4C7A46A5999182 /* Pods-RNDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CX9BS39T2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"$(SRCROOT)./node_modules/react-native/React",
+				);
 				INFOPLIST_FILE = RNDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinxiushidai.yiqiparty.RNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

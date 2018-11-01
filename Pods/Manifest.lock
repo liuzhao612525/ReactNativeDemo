@@ -1,0 +1,56 @@
+PODS:
+  - React/BatchedBridge (0.53.3):
+    - React/Core
+    - React/cxxreact_legacy
+  - React/Core (0.53.3):
+    - yoga (= 0.53.3.React)
+  - React/cxxreact_legacy (0.53.3):
+    - React/jschelpers_legacy
+    - React/jsinspector_legacy
+  - React/DevSupport (0.53.3):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.53.3)
+  - React/jschelpers_legacy (0.53.3)
+  - React/jsinspector_legacy (0.53.3)
+  - React/RCTAnimation (0.53.3):
+    - React/Core
+  - React/RCTBlob (0.53.3):
+    - React/Core
+  - React/RCTImage (0.53.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.53.3):
+    - React/Core
+  - React/RCTText (0.53.3):
+    - React/Core
+  - React/RCTWebSocket (0.53.3):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.53.3.React)
+
+DEPENDENCIES:
+  - React/BatchedBridge (from `./node_modules/react-native`)
+  - React/Core (from `./node_modules/react-native`)
+  - React/DevSupport (from `./node_modules/react-native`)
+  - React/RCTAnimation (from `./node_modules/react-native`)
+  - React/RCTImage (from `./node_modules/react-native`)
+  - React/RCTNetwork (from `./node_modules/react-native`)
+  - React/RCTText (from `./node_modules/react-native`)
+  - React/RCTWebSocket (from `./node_modules/react-native`)
+  - yoga (from `./node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "./node_modules/react-native"
+  yoga:
+    :path: "./node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: fd20e9486c9d994fb6e40d6e67dbd29c7709889c
+  yoga: c7c8e64dbc2552b1ceac0b491ff03f5e5128b501
+
+PODFILE CHECKSUM: 5b76087b55e8bba684f45cb0216826651148b45b
+
+COCOAPODS: 1.6.0.beta.2
